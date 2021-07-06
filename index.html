@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minions speak</title>
+    <style>
+        textarea {
+            width: 80%;
+            height: 10vh;
+            display: block;
+            border: 1px solid greenyellow;
+            margin: 1.5rem;
+            padding: 1.5rem;
+        }
+
+        #output {
+            border: 1px solid greenyellow;
+            height: 10vh;
+            display: block;
+            width: 80%;
+            margin: 1.5rem;
+            padding: 1.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>         Let's talk Banana language</h1>
+    <textarea id="txt-input"
+        placeholder="Please enter your sentence which you want to Translate"></textarea>
+    <button id="btn-translate">Translate</button>
+
+    <div style="font-size: larger;">             Translated text will be shown here 👇</div>
+    <div id="output"></div>
+    <script src="processingFile.js" type="text/javascript"></script>
+</body>
+
+</html>
